@@ -1,5 +1,5 @@
-import {Metadata} from "next";
 import ErrorPage from "@/components/ErrorPage/ErrorPage";
+import {Metadata} from "next";
 
 export const metadata: Metadata = {
     title: "404 — Notehub",

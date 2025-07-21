@@ -1,8 +1,7 @@
-import SidebarNotes from "@/components/SidebarNotes/SidebarNote";
-
+import SidebarNotes from "@/components/SidebarNotes/SidebarNotes";
 
 const arrayTags: string[] = ["Work", "Personal", "Meeting", "Shopping", "Todo"];
 
 export default function Sidebar() {
-    return <SidebarNotes tags={arrayTags} />;
+    return <SidebarNotes tags={arrayTags}/>;
 }

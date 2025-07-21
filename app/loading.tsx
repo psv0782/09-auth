@@ -1,5 +1,5 @@
-import type { CSSProperties } from "react";
-import { BeatLoader } from "react-spinners";
+import type {CSSProperties} from "react";
+import {BeatLoader} from "react-spinners";
 
 const override: CSSProperties = {
     display: "flex",
